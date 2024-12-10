@@ -36,8 +36,8 @@ export const experiences: Experience[] = [
     title: "Graphic design",
     company: "IG SuperMarket.",
     location: "Dar es Salaam, Tz",
-    startDate: "2023",
-    endDate: "2022",
+    startDate: "2022",
+    endDate: "2023",
     description: [
       "Design a Supermarket POS system",
       "Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements)",
@@ -53,8 +53,8 @@ export const education: Education[] = [
     degree: "Bachelor Degree in Information Technology",
     institution: "National Institute Of Transport (NIT)",
     location: "NIT, Dar Es Salaam",
-    startDate: "2020",
-    endDate: "2023",
+    startDate: "2023",
+    endDate: "2020",
     description: "Graduate with honour, GPA 3.0/5.0"
   },
   {
@@ -62,8 +62,8 @@ export const education: Education[] = [
     degree: " Advanced Certificate of secondary education",
     institution: "Nkansi High School",
     location: "Tanzania",
-    startDate: "2020",
-    endDate: "2018",
+    startDate: "2018",
+    endDate: "2020",
     description: "Graduated with honors"
   },
   {
@@ -71,8 +71,8 @@ export const education: Education[] = [
     degree: "Certificate of secondary education",
     institution: "Nkansi High School",
     location: "Tanzania",
-    startDate: "2017",
-    endDate: "2014",
+    startDate: "2014",
+    endDate: "2017",
     description: "Graduated with honors"
   }
 ];
