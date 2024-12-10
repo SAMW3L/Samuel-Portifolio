@@ -53,8 +53,8 @@ export const education: Education[] = [
     degree: "Bachelor Degree in Information Technology",
     institution: "National Institute Of Transport (NIT)",
     location: "NIT, Dar Es Salaam",
-    startDate: "2023",
-    endDate: "2020",
+    startDate: "2020",
+    endDate: "2023",
     description: "Graduate with honour, GPA 3.0/5.0"
   },
   {
