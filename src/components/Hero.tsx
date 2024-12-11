@@ -25,7 +25,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <a 
-                href="Public/SAMWEL--CV.pdf" 
+                href="Assets/SAMWELCV.pdf" 
                 download
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition-colors"
               >
@@ -48,8 +48,8 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <img 
-              src="Public/my-profile-img.jpg" 
-              alt="Developer"
+              src="Assets/images/profile.jpg" 
+              alt="profile"
               className="rounded-full w-64 h-64 md:w-96 md:h-96 object-cover mx-auto shadow-xl"
             />
           </motion.div>
