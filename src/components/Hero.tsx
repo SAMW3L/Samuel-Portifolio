@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 
+import CVPDF from '../../Assets/SAMWELCV.pdf';
+
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 pt-16">
@@ -25,7 +27,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <a 
-                href="Assets/SAMWELCV.pdf" 
+                href={CVPDF} 
                 download
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition-colors"
               >
