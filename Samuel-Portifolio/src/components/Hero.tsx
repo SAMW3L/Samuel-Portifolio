@@ -1,7 +1,9 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
+<<<<<<< HEAD:src/components/Hero.tsx
 import { useNavigate } from 'react-router-dom';
+=======
+>>>>>>> 2160420 (u):Samuel-Portifolio/src/components/Hero.tsx
 import CVPDF from '../../Assets/samwelCV.pdf';
 import ProfilePIC from '../../Assets/images/profile.jpg';
 
