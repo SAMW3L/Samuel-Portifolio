@@ -9,11 +9,9 @@ import ProfilePIC from '../../Assets/images/profile.jpg';
 
 const Hero = () => {
 
-  const handlePDF = () => {
-    // Open the PDF in a new tab
-    window.open(CVPDF, '_blank');
-  };
-
+const handlePDFPreview = () => {
+  window.open(CVPDF, '_blank');
+};
   
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 pt-16">
@@ -38,12 +36,11 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
               <a 
                 href='#'
-                onClick={handlePDF} 
-                download
+                onClick={handlePDFPreview} 
                 className="bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition-colors"
-              >
-                <Download size={20} />
-                Download CV
+                >
+               <Download size={20} />
+                 Download CV
               </a>
               <a 
                 href="#contact"
