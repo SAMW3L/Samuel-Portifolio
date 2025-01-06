@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import CVPDF from '../../Assets/SAMWELCV.pdf';
+import CVPDF from '../../Assets/samwelCV.pdf';
 import ProfilePIC from '../../Assets/images/profile.jpg';
 
 
