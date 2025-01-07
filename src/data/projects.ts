@@ -3,7 +3,7 @@ import { Project } from '../types';
 export const projects: Project[] = [
   {
     id: 1,
-    title: "SuperMarket Management Platform",
+    title: "SuperMarket Management System",
     description: "A Supermarket platform built with React,Typescript, Node.js, and Mysql DB. Features include user authentication, product management, and payment integration.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     technologies: ["React", "Typescript", "Node.js","TailwindCSS", "Mysql DB", "Stripe"],
@@ -22,7 +22,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "Tours and safari Booking Website",
-    description: "A Modern School Website with Studentsportal Parents portal for managing and monitoring Students Records at schools",
+    description: "A Modern Tourism and Adventure Website with Shop for curtural crafts selling",
     image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80",
     technologies: ["React", "TypeScript", "TailwindCSS","MongoDB"],
     githubUrl: "https://github.com/SAMW3L/RubabaAdventure.git",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     id: 4,
     title: "Pharmacy Selling and Management System",
-    description: "An AI-powered image generation tool that creates unique artwork based on text descriptions.",
+    description: "A POS Management system for Pharmacy selling and stocks Management.",
     image: "https://media.istockphoto.com/id/1502426074/photo/male-and-female-pharmacists-in-pharmacy.jpg?s=612x612&w=is&k=20&c=pJizsdEp4fjjX9rKeRCpqbdhIHJzAdaAuGBir4sl4NI=",
     technologies: ["React", "TypeSript","JavaScript", "TailwindCSS"],
     githubUrl: "https://github.com/SAMW3L/PHarmPro-v1.git",
